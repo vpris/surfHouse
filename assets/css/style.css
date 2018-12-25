@@ -55,18 +55,18 @@ header {
 .headerInsideWelcome p {
     font-family: 'Raleway', sans-serif;
     color:  #333333;
-    font-size: 18px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 18px;
     font-weight: 700;
-    line-height: 14px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    line-height: 14px;
     text-align: left;
 }
 
 .headerInsideWelcome h2 {
     font-family: 'Raleway', sans-serif;
     color:  #333333;
-    font-size: 30px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 30px;
     font-weight: 700;
-    line-height: 30px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    line-height: 30px;
     text-align: left;
 }
 
@@ -83,7 +83,7 @@ header {
 .newProducts h3 {
     font-family: 'Roboto';
     color:  #707070;
-    font-size: 22px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 22px;
     font-weight: 900;
     font-style: italic;
     text-align: left;
@@ -149,20 +149,19 @@ header {
 }
 
 .contentSocial {
-    margin: 120px auto;
+    margin: 30px auto;
     background: #9a9494;
     width: 1170px;
-    height: 660px;
 }
 
 .menuLeft li:hover {
     background:#333333;
     cursor: pointer;
-    color: #fff;
 }
 
 .menuLeft li a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 .menuLeft li {
@@ -174,14 +173,15 @@ header {
     margin: 0 -40px;
     font-family: 'Roboto', sans-serif ;
     color:  #000000;
-    font-size: 14px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 14px;
     font-weight: 900;
-    line-height: 36px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    line-height: 36px;
     text-align: left;
     padding: 4px 40px;
 }
 
 .menuLeft li a {
+    display: block;
     color: #000000;
 }
 
@@ -195,7 +195,7 @@ header {
     color: white;
 }
 
-.headerInside .buyNow {
+.headerInside .buyNowInHeader {
     position: absolute;
     background: #5499ff54;
     border-radius: 4px;
@@ -206,34 +206,36 @@ header {
     padding: 33px 20px;
 }
 
-.headerInside .buyNow h3 {
+.headerInside .buyNowInHeader h3 {
 
     font-family: 'Raleway', sans-serif;
     color:  #fff51f;
-    font-size: 48px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 48px;
     font-weight: 700;
-    line-height: 34px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    line-height: 34px;
     text-align: left;
 }
 
-.headerInside .buyNow p {
+.headerInside .buyNowInHeader p {
     font-family: Raleway, sans-serif ;
     color:  #fff51f;
-    font-size: 18px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    font-size: 18px;
     font-weight: 400;
-    line-height: 24px;/* ÐŸÑ€Ð¸Ð±Ð»Ð¸Ð¶ÐµÐ½Ð¸Ðµ Ð¸Ð·-Ð·Ð° Ð¿Ð¾Ð´ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ¸ ÑˆÑ€Ð¸Ñ„Ñ‚Ð¾Ð² */
+    line-height: 24px;
     text-align: left;
 }
 
 
 .openOrCloseBanner {
     float: left;
-    background: #e0e0e0;
+    background: url("../images/open_or_close.jpg") #e0e0e0;
     height: 300px;
     width: 100%;
     position: relative;
     margin-top: 20px;
 }
+
+.openOrCloseBlock {float: right;width: 130px;margin-top: 96px;color: #fff721;font-size: 36px;font-weight: 800;line-height: 36px;text-align: left;}
 
 .socialInHeader {
     position: absolute;
@@ -253,6 +255,7 @@ header {
 .brands {
     float: left;
     display: flex;
+    height: 160px;
     width: 100%;
     flex-direction: row;
     background: #fff;
@@ -264,4 +267,122 @@ header {
 .troughPrice {
     text-decoration: line-through;
     color: red;
+}
+
+.ourInstaFeed {
+    float: left;
+    background: #ededed;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    color: #333;
+}
+
+.ourInstaFeed span {
+    font-family: Roboto, sans-serif;
+    color:  #333333;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.ourInstagram {
+    font-family: Roboto, sans-serif;
+    color:  #333333;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.wrapOurInsta {
+    float: left;
+    background: #ededed;
+    width: 100%;
+    margin: -33px 8px 0 0;
+    min-height: 245px;
+}
+
+.ourInstaPosts {
+    float: left;
+    width: 182px;
+    height: 182px;
+    background: #fafafa;
+    padding: 8px;
+    margin-right: 7px;
+    margin-left: 6px;
+}
+
+.ourInstaImg {
+    width: 165px;
+    height: 165px;
+}
+
+.ourInstagram {
+    margin: 22px 0;
+}
+
+.bigSocialIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.bigSocialIcons a {
+    width: 33.30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bigSocialIcons {
+    font-size: 60px;
+}
+
+.bigSocialIcons a {
+    color: #fff;
+}
+
+.bigFacebook {
+    background: #3b5997;
+}
+
+.bigFacebook:hover {
+    transform: translateY(-15px);
+    height: 180px;
+}
+
+.bigPinterest {
+    background: #bd2130;
+}
+
+.bigPinterest:hover {
+    transform: translateY(-15px);
+    height: 180px;
+}
+
+.bigTwitter {
+    background: #3fccfd;
+}
+
+.bigTwitter:hover {
+    transform: translateY(-15px);
+    height: 180px;
+}
+
+.buyNow {
+    background-color: #fff51f;
+    width: 124px;
+    height: 49px;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 800;
 }
