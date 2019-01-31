@@ -565,7 +565,8 @@ header {
 
 .cardMarketName {
     float: left;
-    width: 160px;
+    max-width: 158px;
+    max-height: 3em;
     overflow: hidden;
 
 }
