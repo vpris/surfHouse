@@ -894,6 +894,7 @@ footer {
     border: none;
     padding-left: 10px;
     padding-right: 10px;
+    outline: none;
 }
 
 .newsletterSubmitButton {
@@ -902,4 +903,5 @@ footer {
     height: 32px;
     border: none;
     color: #fff;
+    outline: none;
 }
